@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "silktest",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Silk Test Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -23,16 +23,13 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.13.3",
-    "fabric": "*",
     "minecraft": "1.18.x",
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
